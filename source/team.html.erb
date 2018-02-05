@@ -5,13 +5,13 @@
     </h1>
     <ul class="list-inline text-center">
       <li>
-        <%= image_tag "https://kitt.lewagon.com/placeholder/users/unischneider", class: "img-circle profile-pic" %>
+        <%= image_tag "https://kitt.lewagon.com/placeholder/users/unischneider", target: "_blank", class: "img-circle profile-pic" %>
         <h2>
           Nick Schneider
         </h2>
         <p>
-          <%= link_to "http://github.com/unischneider"  %>
-          <i class="fa fa-github"> Unischneider</i>
+
+          <i class="fa fa-github"> <%= link_to "Unischneider","http://github.com/unischneider", target: "_blank",  class: "navbar-wagon-link" %></i>
         </p>
       </li>
       <li>
@@ -20,8 +20,7 @@
           Marc Wyss
         </h2>
         <p>
-          <%= link_to "http://github.com/marcrowindo"%>
-          <i class="fa fa-github"> Marcrowindo</i>
+          <i class="fa fa-github"> <%= link_to "Marcrowindo", "http://github.com/marcrowindo", class: "navbar-wagon-link"%></i>
         </p>
       </li>
     </ul>
